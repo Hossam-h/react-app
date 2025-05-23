@@ -57,7 +57,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 Services
               </NavLink>
               <NavLink
-                to="/about"
+                to="/about me"
                 className={({ isActive }) =>
                   `transition-colors ${isActive ? "font-bold text-blue-700 dark:text-blue-400" : "text-gray-700 dark:text-gray-200 hover:text-blue-700 dark:hover:text-blue-400"}`
                 }
